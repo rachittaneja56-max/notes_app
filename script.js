@@ -19,7 +19,7 @@ createBtn.addEventListener("click", () => {
 
   note.className = "input-box";
   note.setAttribute("contenteditable", "true");
-  delImg.src = "assets/delete.png";
+  delImg.src = "delete.png";
 
   note.appendChild(delImg);
   notesContainer.appendChild(note);
@@ -52,3 +52,4 @@ function attachEvents() {
 }
 
 showNotes();
+
