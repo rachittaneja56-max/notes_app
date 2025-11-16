@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #cf9aff, #95c0ff);
+  color: #fff;
+  padding: 4% 10%;
+}
+
+.container h1 {
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.container h1 img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#9418fd, #571094);
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-radius: 40px;
+  padding: 14px 24px;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn img {
+  width: 24px;
+  margin-right: 8px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  background: #fff;
+  color: #333;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  outline: none;
+  font-size: 15px;
+}
+
+.input-box:focus {
+  border: 2px solid #9418fd;
+}
+
+.input-box img {
+  width: 25px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.input-box img:hover {
+  opacity: 1;
+}
